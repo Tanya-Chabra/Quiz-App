@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.card-content {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.btn-success {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+.btn-danger {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}

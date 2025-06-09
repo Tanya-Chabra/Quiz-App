@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #e3f2fd, #fce4ec);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.heading p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.button-div .btn {
+    margin: 10px;
+    transition: transform 0.2s ease, background-color 0.3s;
+    font-weight: 500;
+}
+
+
+#quizProgress {
+    transition: width 0.4s ease;
+    font-weight: 500;
+}
+
+.alert-success {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn-outline-primary {
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
